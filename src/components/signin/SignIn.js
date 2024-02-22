@@ -1,13 +1,11 @@
-import { Text, StyleSheet } from 'react-native';
+import { Text } from 'react-native';
+import { Background } from './Styles'
 
 function SignIn(){
     return(
-    
-        <Text>SIGNIN</Text>
+        <Background>
+            <Text>Hello</Text>
+        </Background>
     );
 }
 export default SignIn;
-
-const styles = StyleSheet.create({
-
-});

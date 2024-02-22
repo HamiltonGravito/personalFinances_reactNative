@@ -12,13 +12,17 @@ Criar diretório src na raiz do projeto;
 [React_Navigation](https://reactnavigation.org/)
 
 
-`npm install @react-navigation/native @react-navigation/native-stack`
-
+`npx expo install @react-navigation/native @react-navigation/native-stack`
 
 `npx expo install react-native-screens react-native-safe-area-context`
 
+`npx expo install react-native-gesture-handler`
 
-`npm install @react-navigation/native-stack`
+Criar pasta routes na raiz do projeto contendo o componente de rota e as possíveis rotas. Nesse App em particular existirá duas rotas (uma para login e outra para navegação do app).
 
-Criar pasta routes na raiz do projeto contendo o componente de rota e as possíveis rotas. Nesse App em particular existirá duas rotas (login e )
+## Styled-Components
+[Styled_components](https://styled-components.com/docs/basics)
+
+`npx expo install styled-components`
+
 
