@@ -9,7 +9,7 @@ function AuthRoutes(){
     return(
         <AuthStack.Navigator>
             <AuthStack.Screen options={{ headerTitle:'Test', headerShown: false }}  name='SigIn' component={SignIn} />
-            <AuthStack.Screen name='SigUp' component={SignUp} />
+            <AuthStack.Screen name='SignUp' component={SignUp} />
         </AuthStack.Navigator>
     );
 };
